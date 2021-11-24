@@ -1,0 +1,9 @@
+{
+    "name": "Always Day",
+    "version_number": "0.0.1",
+    "website_url": "https://github.com/nosv1/timberborn-mods/tree/main/AlwaysDay",
+    "description": "Daylight cycle is ignored, and it is always daylight.",
+    "dependencies": [
+        "BepInEx-BepInExPack_Timberborn-5.4.17"
+    ]
+}
