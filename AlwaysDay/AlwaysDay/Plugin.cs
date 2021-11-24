@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace AlwaysDay  { 
 
-	[BepInPlugin("mo.timberborn.alwaysday", "Always Day", "0.0.1")]
+	[BepInPlugin("mo.timberborn.alwaysday", "Always Day", "1.0.0")]
 	[BepInProcess("Timberborn.exe")]
 
 	public class Plugin : BaseUnityPlugin {
