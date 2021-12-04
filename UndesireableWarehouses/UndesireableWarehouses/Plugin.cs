@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace UndesireableStorage {
 
-	[BepInPlugin("mo.timberborn.undesireable_warehouses", "Undesireable Warehouses", "0.0.1")]
+	[BepInPlugin("mo.timberborn.undesireable_storage", "Undesireable Storage", "0.0.1")]
 	[BepInProcess("Timberborn.exe")]
 	public class Plugin : BaseUnityPlugin {
 
@@ -18,4 +18,5 @@ namespace UndesireableStorage {
 		}
 
   }
+
 }
