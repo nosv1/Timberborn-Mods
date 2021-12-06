@@ -1,6 +1,6 @@
 {
     "name": "UndesireableStorage",
-    "version_number": "1.0.0",
+    "version_number": "1.0.2",
     "website_url": "https://github.com/nosv1/Timberborn-Mods/tree/main/UndesireableWarehouses",
     "description": "New storage buildings automatically disallow all goods stored in them and are set to emptying for a visual cue when they are built.",
     "dependencies": [

@@ -38,10 +38,9 @@ namespace UndesireableStorage  {
                         //Statics.Logger.LogInfo($"{__instance.gameObject.name} - {__instance.gameObject.GetInstanceID()} disallowing {good.StorableGood.GoodSpecification.name}");
                     }
 
-                    // setting to empty for visual cue, enabling to set the mark emptying, and then disabling cause idk what enabling actually does
-                    emptiable.enabled = true;
+                    // setting to empty for visual cue
+                    emptiable.OnEnterFinishedState(); // sets emptiable to enabled to allowing emptying to be toggled
                     emptiable.MarkForEmptyingWithStatus();
-                    emptiable.enabled = false;
 
                     //Statics.Logger.LogInfo($"{__instance.gameObject.name} set to emptying");
                 }

@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace UndesireableStorage {
 
-	[BepInPlugin("mo.timberborn.undesireable_storage", "Undesireable Storage", "1.0.0")]
+	[BepInPlugin("mo.timberborn.undesireable_storage", "Undesireable Storage", "1.0.2")]
 	[BepInProcess("Timberborn.exe")]
 	public class Plugin : BaseUnityPlugin {
 
@@ -13,7 +13,7 @@ namespace UndesireableStorage {
 			Statics.Logger = Logger;
 
 			Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
-			Logger.LogInfo($"Plugin mo.timberborn.undesireable_storage is loaded...");
+			Logger.LogInfo($"Plugin mo.timberborn.undesireable_storage has loaded...");
 
 		}
 

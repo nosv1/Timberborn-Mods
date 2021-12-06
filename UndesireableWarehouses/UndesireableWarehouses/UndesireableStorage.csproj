@@ -66,6 +66,9 @@
     <Reference Include="Timberborn.InventorySystemUI">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Timberborn\Timberborn_Data\Managed\Timberborn.InventorySystemUI.dll</HintPath>
     </Reference>
+    <Reference Include="Timberborn.StockKeeping">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Timberborn\Timberborn_Data\Managed\Timberborn.StockKeeping.dll</HintPath>
+    </Reference>
     <Reference Include="Timberborn.StockKeeping_publicized">
       <HintPath>..\Timberborn.StockKeeping_publicized.dll</HintPath>
     </Reference>
